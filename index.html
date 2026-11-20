@@ -180,7 +180,7 @@ h2.sec { font-family: var(--font-script); font-weight: 400; color: var(--maroon)
 }
 .medal .wd { font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: var(--gold-deep); font-weight: 600; }
 .medal .d { font-size: 2rem; font-weight: 700; color: var(--maroon); margin: 3px 0 2px; }
-.medal .m { font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink); font-weight: 600; }
+.medal .m { font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); font-weight: 600; max-width: 100%; overflow-wrap: anywhere; }
 .ev.main .medal { background: var(--maroon); border-color: var(--maroon-deep); box-shadow: 0 0 0 5px var(--paper), 0 0 0 6px var(--maroon); }
 .ev.main .medal .wd, .ev.main .medal .d, .ev.main .medal .m { color: var(--paper-2); }
 .ev.main .card { border-color: var(--gold); box-shadow: 0 0 0 5px var(--paper), 0 0 0 6px var(--gold-soft); }
@@ -191,8 +191,8 @@ h2.sec { font-family: var(--font-script); font-weight: 400; color: var(--maroon)
 .card .host { margin: 0 0 14px; font-style: italic; font-size: 1.02rem; }
 .card .gur.tagline { margin: 0 0 2px; color: var(--maroon); font-size: 1.2rem; }
 .rows { margin: 0 0 14px; padding: 0; list-style: none; display: grid; gap: 4px; }
-.rows li { display: flex; align-items: baseline; gap: 8px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: .98rem; color: var(--maroon); }
-.rows li i { flex: 1; min-width: 12px; border-bottom: 1px dotted var(--gold); transform: translateY(-4px); }
+.rows li { display: flex; align-items: baseline; flex-wrap: wrap; row-gap: 2px; gap: 8px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: .98rem; color: var(--maroon); overflow-wrap: anywhere; }
+.rows li i { flex: 1; min-width: 8px; border-bottom: 1px dotted var(--gold); transform: translateY(-4px); }
 .rows li time { white-space: nowrap; }
 .rows li.note { display: block; text-transform: none; letter-spacing: 0; font-weight: 500; font-style: italic; color: var(--ink); font-size: .98rem; margin-top: -2px; }
 .then { margin: 0 0 14px; font-style: italic; }

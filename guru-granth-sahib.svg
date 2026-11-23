@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Guru Granth Sahib">
+  <g fill="none" stroke="#b98b3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 90v16M94 90v16" stroke="#7a1230" stroke-width="4"/>
+    <rect x="16" y="84" width="88" height="10" rx="3" fill="#7a1230"/>
+    <rect x="20" y="77" width="80" height="9" rx="2" fill="#f6e6c8"/>
+    <path d="M24 67c12-8 28-8 36 0 8-8 24-8 36 0v14c-12-8-28-8-36 0-8-8-24-8-36 0Z" fill="#7a1230"/>
+    <path d="M28 65c10-6 22-6 32 0v14c-10-6-22-6-32 0Z" fill="#fffaf0" stroke-width="1.4"/>
+    <path d="M60 65c10-6 22-6 32 0v14c-10-6-22-6-32 0Z" fill="#fffaf0" stroke-width="1.4"/>
+    <path d="M60 65v14" stroke="#7a1230" stroke-width="2"/>
+    <path d="M33 70h20M33 74h20M33 78h15M67 70h20M67 74h20M67 78h15" stroke="#dcc391" stroke-width="1.2"/>
+    <path d="M22 61c14-10 30-10 38-2 8-8 24-8 38 2l-6 8c-12-7-24-7-32 0-8-7-20-7-32 0Z" fill="#7a1230"/>
+    <path d="M30 65c8-5 18-5 26 0 8-5 18-5 26 0" stroke="#dcc391" stroke-width="1"/>
+    <circle cx="60" cy="51" r="4" fill="#b98b3e" stroke="none"/>
+    <path d="M60 45v-7M56 41l4 4 4-4"/>
+  </g>
+</svg>
